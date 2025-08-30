@@ -2,6 +2,37 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+}
+
+.navbar .left  {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar .right {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .right a {
+    text-decoration: none;
+    color: black;
+}
+.navbar .right a:hover {
+    text-decoration: underline;
+}
+
+.navbar .right img{
+    width: 24px;
+    height: 24px;
+}
+
 .project-grid {
     display: grid;
     grid-gap: 16px;
@@ -125,8 +156,8 @@ body {
     }
 }
 
-/* My  NAVBAR */
-.navbar {
+/* NAVBAR */
+/* .navbar {
     display: flex;
     justify-content: space-between;
 }
@@ -139,17 +170,16 @@ body {
 
 .artist h1 {
     margin-right: 20px;
-}
+} */
 
-.artist p {
+/* .artist p {
     background-color: white;
     border-radius: 20px;
     border: 2px solid rgb(240, 240, 240);
     padding: 4px;
-    /* box-shadow: ; */
-}
+} */
 
-.navbar .links {
+/* .navbar .links {
     width: 30%;
     display: flex;
     justify-content: space-between;
@@ -167,4 +197,4 @@ body {
 
 .links img {
     width: 24px;
-}
+} */
