@@ -83,6 +83,10 @@ body {
     transition: all 0.2s ease;
 }
 
+.overlay.white {
+    color: white;
+}
+
 .project .overlay:hover {
     opacity: 1;
     cursor: pointer;
@@ -114,5 +118,9 @@ body {
             "cup cup"
             "foam foam"
             "dimensional dimensional";
+    }
+    
+    .project .overlay {
+        font-size: 24px;
     }
 }
